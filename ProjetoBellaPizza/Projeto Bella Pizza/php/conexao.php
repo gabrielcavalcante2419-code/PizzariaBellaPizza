@@ -7,11 +7,12 @@ $port = '3306'
 
 
 // Criando a conexão
-$conn = new mysqli($host, $usuario, $senha, $banco);
+$conn = new mysqli($host, $usuario, $senha, $banco, $port);
 
 // Verificando se houve erro na conexão
 if ($conn->connect_error) {
     die("Erro na conexão com o banco de dados: " . $conn->connect_error);
 }
 ?>
+
 
