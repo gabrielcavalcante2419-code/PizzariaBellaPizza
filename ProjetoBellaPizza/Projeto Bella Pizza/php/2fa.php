@@ -3,7 +3,7 @@ session_start();
 
 // Se não estiver logado, redireciona para login
 if (!isset($_SESSION['usuario'])) {
-    header("Location:../php/login.php");
+    header("Location: login.php");
     exit();
 }
 
@@ -53,7 +53,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $_SESSION['2fa_tentativas'] = 0;
 
         // Redireciona para área restrita (ajuste o caminho conforme sua estrutura)
-        header("Location:../php/index.php");
+        header("Location: index.php");
         exit();
     } else {
         $_SESSION['2fa_tentativas']++;
@@ -61,7 +61,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         if ($_SESSION['2fa_tentativas'] >= $max_tentativas) {
             // Destrói sessão e volta para login com erro
             session_destroy();
-            header("Location: ../php/login.php?erro=2fa");
+            header("Location: login.php?erro=2fa");
             exit();
         } else {
             $erro = "Resposta incorreta. Tentativa {$_SESSION['2fa_tentativas']} de $max_tentativas.";
@@ -130,3 +130,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 </body>
 </html>
+
