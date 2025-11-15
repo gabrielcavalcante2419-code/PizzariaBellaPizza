@@ -25,7 +25,7 @@
                 <nav>
                     <ul>
                         <li><a href="../html/cadastro.html">Cadastro</a></li>
-                        <li><a href="../php/login.php">Login</a></li>
+                        <li><a href="../php/login.php">L</a></li>
                     </ul>
                 </nav>
             </div>
@@ -257,4 +257,5 @@
             <script src="../javascript/javascript.js"></script>
         </div>
     </footer>
+
 </html>
