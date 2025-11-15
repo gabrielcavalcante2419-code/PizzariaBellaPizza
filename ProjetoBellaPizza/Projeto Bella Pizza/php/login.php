@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once '../php/conexao.php';
+require_once 'conexao.php';
 function registrarLog($conn, $login, $status) {
     $ip = $_SERVER['REMOTE_ADDR'];
     $stmt = $conn->prepare("INSERT INTO logs_acesso (login, status, id_usuario) VALUES (?, ?, ?)");
@@ -64,7 +64,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Login - Bella Pizza</title>
-  <link rel="stylesheet" href="../css/login.css" />
+  <link rel="stylesheet" href="css/login.css" />
 </head>
 <body>
   <!-- Fundo com triangulinhos (fatias de pizza) -->
@@ -81,15 +81,15 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
   <header> 
     <div class="header-content">
       <h1 class="logo">
-        <a href="../php/index.php" class="logo-link">
-          <img src="../img/logo-bella2.png" alt="Logo Bella Pizza" class="logo-img" />
+        <a href="index.php" class="logo-link">
+          <img src="img/logo-bella2.png" alt="Logo Bella Pizza" class="logo-img" />
           Bella Pizza
         </a>
       </h1>
       <nav>
         <ul>
-          <li><a href="../html/cadastro.html">Cadastro</a></li>
-          <li><a href="../php/login.php">Login</a></li>
+          <li><a href="html/cadastro.html">Cadastro</a></li>
+          <li><a href="login.php">Login</a></li>
         </ul>
       </nav>
     </div>
@@ -158,3 +158,4 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
   </footer>
 </body>
 </html>
+
