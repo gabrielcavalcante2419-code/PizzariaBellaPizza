@@ -4,7 +4,7 @@ require_once 'conexao.php';
 
 // Se não estiver logado, redireciona para login
 if (!isset($_SESSION['usuario'])) {
-    header("location: login.php");
+    header("Location: login.php");
     exit();
 }
 
@@ -131,3 +131,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 </body>
 </html>
+
