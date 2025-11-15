@@ -1,9 +1,9 @@
 <?php
 session_start();
-require_once '../php/conexao.php';
+require_once 'conexao.php';
 
 if (!isset($_SESSION['usuario']) || $_SESSION['usuario']['perfil'] !== 'master') {
-    header("Location: ../php/login.php");
+    header("Location: login.php");
     exit();
 }
 
@@ -131,7 +131,7 @@ $totalPaginas = ceil($total / $limite);
 <a href="logout.php" class="logout">Sair</a>
 <h1>Usuários Cadastrados nas últimas 24h</h1>
 
-<form class="busca" method="GET" action="tabelas.php">
+<form class="busca" method="GET" action="">
   <input type="text" name="busca" placeholder="Buscar por nome ou CPF" value="<?= htmlspecialchars($busca) ?>">
   <button type="submit">Buscar</button>
 </form>
@@ -178,3 +178,4 @@ $totalPaginas = ceil($total / $limite);
 
 </body>
 </html>
+
