@@ -3,7 +3,7 @@ $host = 'bancodedadospizzaria.c5c8ea6m08um.us-east-1.rds.amazonaws.com';
 $usuario = 'admin';                  
 $senha = 'mnbvcxzasdfghjkl';                        
 $banco = 'modelo_bancodedados';
-$port = '3306'
+$port = '3306';
 
 
 // Criando a conexão

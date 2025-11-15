@@ -1,5 +1,5 @@
 <?php
-require_once '../php/conexao.php'; 
+require_once 'conexao.php'; 
 
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
     // Recebendo os dados do formulário

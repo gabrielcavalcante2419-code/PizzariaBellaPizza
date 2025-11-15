@@ -10,22 +10,22 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"><!-- Ícones do Font Awesome -->
-        <link rel="stylesheet" href="../css/style.css"> 
+        <link rel="stylesheet" href="css/style.css"> 
         <title>Página Principal</title>
     </head>
     <body> <!-- Corpo do Site-->
         <header>
             <div class="header-content">
                 <h1 class="logo">
-                    <a href="../php/index.php" class="logo-link">
+                    <a href="php/index.php" class="logo-link">
                         <img src="../img/logo-bella2.png" alt="Logo Bella Pizza" class="logo-img" />
                         Bella Pizza
                     </a>
                 </h1>
                 <nav>
                     <ul>
-                        <li><a href="../html/cadastro.html">Cadastro</a></li>
-                        <li><a href="../php/login.php">Login</a></li>
+                        <li><a href="html/cadastro.html">Cadastro</a></li>
+                        <li><a href="login.php">Logn</a></li>
                     </ul>
                 </nav>
             </div>
@@ -35,7 +35,7 @@
             <section class="hero">
                 <div class="carousel">
                     <div class="carousel-inner">
-                        <img src="../img/promo2-pizza.jpg" class="carousel-item" alt="Pizza Especial 1">
+                        <img src="img/promo2-pizza.jpg" class="carousel-item" alt="Pizza Especial 1">
                         <img src="../img/promo-pizza.jpg" class="carousel-item active" alt="Pizza Especial 2">
                     </div>
                     <button class="carousel-control prev">❮</button>
@@ -254,7 +254,7 @@
             <div class="footer-bottom">
                 <p>&copy; 2025 Pizzaria Bella. Todos os direitos reservados.</p>
             </div>
-            <script src="../javascript/javascript.js"></script>
+            <script src="javascript/javascript.js"></script>
         </div>
     </footer>
 </html>

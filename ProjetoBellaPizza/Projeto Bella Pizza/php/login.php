@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once '../php/conexao.php';
+require_once 'conexao.php';
 function registrarLog($conn, $login, $status) {
     $ip = $_SERVER['REMOTE_ADDR'];
     $stmt = $conn->prepare("INSERT INTO logs_acesso (login, status, id_usuario) VALUES (?, ?, ?)");
