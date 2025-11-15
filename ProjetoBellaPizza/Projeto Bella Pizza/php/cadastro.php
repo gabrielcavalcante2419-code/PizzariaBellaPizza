@@ -1,5 +1,5 @@
 <?php
-require_once '../php/conexao.php'; 
+require_once 'conexao.php'; 
 
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
     // Recebendo os dados do formulário
@@ -36,7 +36,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         $cep,
         $email,
         $login,
-        $senha,
+        $senha_hash,
         $cell,
         $data_nascimento,
         $sexo,
@@ -47,7 +47,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     if ($stmt->execute()) {
         // Redireciona para login após sucesso
-        header("Location:../php/login.php");
+        header("Location: login.php");
         exit();
     } else {
         echo "Erro ao cadastrar: " . $stmt->error;
@@ -57,3 +57,4 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $conn->close();
 }
 ?>
+
