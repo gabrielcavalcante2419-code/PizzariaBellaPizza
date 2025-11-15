@@ -10,22 +10,22 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"><!-- Ícones do Font Awesome -->
-        <link rel="stylesheet" href="../css/style.css"> 
+        <link rel="stylesheet" href="css/style.css"> 
         <title>Página Principal</title>
     </head>
     <body> <!-- Corpo do Site-->
         <header>
             <div class="header-content">
                 <h1 class="logo">
-                    <a href="../php/index.php" class="logo-link">
-                        <img src="../img/logo-bella2.png" alt="Logo Bella Pizza" class="logo-img" />
+                    <a href="php/index.php" class="logo-link">
+                        <img src="img/logo-bella2.png" alt="Logo Bella Pizza" class="logo-img" />
                         Bella Pizza
                     </a>
                 </h1>
                 <nav>
                     <ul>
-                        <li><a href="../html/cadastro.html">Cadastro</a></li>
-                        <li><a href="../php/login.php">L</a></li>
+                        <li><a href="html/cadastro.html">Cadastro</a></li>
+                        <li><a href="php/login.php">Login</a></li>
                     </ul>
                 </nav>
             </div>
@@ -35,8 +35,8 @@
             <section class="hero">
                 <div class="carousel">
                     <div class="carousel-inner">
-                        <img src="../img/promo2-pizza.jpg" class="carousel-item" alt="Pizza Especial 1">
-                        <img src="../img/promo-pizza.jpg" class="carousel-item active" alt="Pizza Especial 2">
+                        <img src="img/promo2-pizza.jpg" class="carousel-item" alt="Pizza Especial 1">
+                        <img src="img/promo-pizza.jpg" class="carousel-item active" alt="Pizza Especial 2">
                     </div>
                     <button class="carousel-control prev">❮</button>
                     <button class="carousel-control next">❯</button>
@@ -55,7 +55,7 @@
                     <div class="grid">
                         <!-- Pizza 1 -->
                         <div class="pizza">
-                            <img src="../img/margherita.png" alt="Pizza Margherita" class="imagem-pizzas">
+                            <img src="img/margherita.png" alt="Pizza Margherita" class="imagem-pizzas">
                              <h4 class="h4-nome-pizzas">Margherita</h4>
                              <p>Molho de tomate, mussarela, manjericão.</p>
                              <div class="estrelas">
@@ -68,7 +68,7 @@
                         </div>
                         <!-- Pizza 2 -->
                         <div class="pizza">
-                            <img src="../img/calabresa.png" alt="Pizza Calabresa" class="imagem-pizzas">
+                            <img src="img/calabresa.png" alt="Pizza Calabresa" class="imagem-pizzas">
                             <h4 class="h4-nome-pizzas">Calabresa</h4>
                             <p>Calabresa, cebola roxa e orégano.</p>
                             <div class="estrelas">
@@ -81,7 +81,7 @@
                         </div>
                         <!-- Pizza 3 -->
                         <div class="pizza">
-                            <img src="../img/quatro-queijos.png" alt="Pizza Quatro Queijos" class="imagem-pizzas">
+                            <img src="img/quatro-queijos.png" alt="Pizza Quatro Queijos" class="imagem-pizzas">
                             <h4 class="h4-nome-pizzas">Quatro Queijos</h4>
                             <p>Mussarela, gorgonzola, parmesão e catupiry.</p>
                             <div class="estrelas">
@@ -103,7 +103,7 @@
                     <div class="grid">
                         <div class="pizza">
                             <h4 class="h4-nome-pizzas">Pizza de Calabresa</h4>
-                            <img class="imagem-pizzas" src="../img/pizza-Calabresa.png" alt="Pizza de Calabresa">
+                            <img class="imagem-pizzas" src="img/pizza-Calabresa.png" alt="Pizza de Calabresa">
                             <p class="p-precos">R$:23,00</p>
                             <div class="bebida-opcao">
                                 <label class="label-bebida">Escolha uma bebida:</label>
@@ -120,7 +120,7 @@
                         <!-- Mussarela -->
                         <div class="pizza">
                             <h4 class="h4-nome-pizzas">Pizza de Mussarela</h4>
-                            <img class="imagem-pizzas" src="../img/pizza-Mussarela.png" alt="Pizza de Mussarela">
+                            <img class="imagem-pizzas" src="img/pizza-Mussarela.png" alt="Pizza de Mussarela">
                             <p class="p-preços">R$:23,00</p>
                             <div class="bebida-opcao">
                                 <label class="label-bebida">Escolha uma bebida:</label>
@@ -137,7 +137,7 @@
                         <!-- Portuguesa -->
                         <div class="pizza">
                             <h4 class="h4-nome-pizzas">Pizza Portuguesa</h4>
-                            <img class="imagem-pizzas" src="../img/pizza-Portuguesa.png" alt="Pizza Portuguesa">
+                            <img class="imagem-pizzas" src="img/pizza-Portuguesa.png" alt="Pizza Portuguesa">
                             <p class="p-preços">R$:23,00</p>
                             <div class="bebida-opcao">
                                 <label class="label-bebida">Escolha uma bebida:</label>
@@ -154,7 +154,7 @@
                         <!-- Vegana -->
                         <div class="pizza">
                             <h4 class="h4-nome-pizzas">Pizza Vegana</h4>
-                            <img class="imagem-pizzas" src="../img/pizza-Vegana.png" alt="Pizza Vegana">
+                            <img class="imagem-pizzas" src="img/pizza-Vegana.png" alt="Pizza Vegana">
                             <p class="p-preços">R$:23,00</p>
                                 <div class="bebida-opcao">
                                     <label class="label-bebida">Escolha uma bebida:</label>
@@ -171,7 +171,7 @@
                             <!-- Doces -->
                             <div class="pizza">
                                 <h4 class="h4-nome-pizzas">Pizza de M&Ms</h4>
-                                <img class="imagem-pizzas" src="../img/pizza-M&ms.png" alt="Pizza de M&Ms">
+                                <img class="imagem-pizzas" src="img/pizza-M&ms.png" alt="Pizza de M&Ms">
                                 <p class="p-preços">R$:27,00</p>
                                 <div class="bebida-opcao">
                                     <label class="label-bebida">Escolha uma bebida:</label>
@@ -187,7 +187,7 @@
                             </div>
                             <div class="pizza">
                                 <h4 class="h4-nome-pizzas">Pizza de Brownie</h4>
-                                    <img class="imagem-pizzas" src="../img/pizza-Brownie.png" alt="Pizza de Brownie">
+                                    <img class="imagem-pizzas" src="img/pizza-Brownie.png" alt="Pizza de Brownie">
                                     <p class="p-preços">R$:27,00</p>
                                     <div class="bebida-opcao">
                                         <label class="label-bebida">Escolha uma bebida:</label>
@@ -203,7 +203,7 @@
                                 </div>
                                 <div class="pizza">
                                     <h4 class="h4-nome-pizzas">Pizza de Oreo</h4>
-                                    <img class="imagem-pizzas" src="../img/pizza-Oreo.png" alt="Pizza de Oreo">
+                                    <img class="imagem-pizzas" src="img/pizza-Oreo.png" alt="Pizza de Oreo">
                                     <p class="p-preços">R$:27,00</p>
                                     <div class="bebida-opcao">
                                         <label class="label-bebida">Escolha uma bebida:</label>
@@ -254,8 +254,9 @@
             <div class="footer-bottom">
                 <p>&copy; 2025 Pizzaria Bella. Todos os direitos reservados.</p>
             </div>
-            <script src="../javascript/javascript.js"></script>
+            <script src="javascript/javascript.js"></script>
         </div>
     </footer>
 
 </html>
+
